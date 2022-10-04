@@ -1,0 +1,155 @@
+@font-face {
+    font-family: FuturaPTBook;
+    src: url(../fonts/FuturaPTBook.otf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: FuturaPTBook;
+
+}
+
+
+body {
+
+    background-color: #e4fbfb !important;
+
+
+}
+
+.navbar-collapse{
+    justify-content: right;
+}
+
+.container{
+    background-color: white;
+}
+
+#titulo{
+    font-size: 22px;
+    position: relative;
+    top: 3px;
+}
+
+header h1 {
+    position: relative;
+    left: 0px;
+    line-height: 2.5em;
+}
+
+li {
+
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+
+
+article h2 {
+
+    font-size: x-large;
+}
+
+
+.facha {
+    text-decoration: none;
+    transition: 300ms !important;
+}
+.facha:hover {
+    text-shadow: 4px 4px 4px gray;
+    color: #405566 !important;
+}
+
+
+.articulo:first-child {
+    color: #405566;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #405566;
+}
+
+#imgP {
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.imagP {
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 325px;
+}
+
+
+article p {
+    font-size: 20px;
+}
+
+
+header img {
+    float: left;
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 5%;
+
+}
+
+.adoptar {
+    width: 22%;
+    height: 320px;
+    margin: 20px;
+}
+
+.donar {
+    color: gray;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    text-align: center;
+    display: flexbox;
+}
+.img-donar {
+    width: 70%;
+}
+
+.boton-ley{
+    background-color: #405566 !important;
+    border-color: #405566 !important;
+}
+
+a{
+    color: #405566 !important;
+    text-decoration: none !important;
+}
+
+.img-carrusel{
+    border-radius: 50px;
+}
+
+
+
+.img-adoptar{
+    height: 325px;
+    min-width: 325px;
+    transition: 200ms;
+}
+.img-adoptar:hover{
+    opacity: 0.5;
+}
+
+.elfooter{
+    margin-top: 20px;
+}
+.elfooter p{
+    text-align: right;
+}
+#copy{
+    float: left;
+}
